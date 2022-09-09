@@ -1,0 +1,35 @@
+/* ============ IMPORT CORE CSS HERE ============ */
+
+@import './core-style.css';
+@import './responsive.css';
+
+/* ============ PLACE YOUR CUSTOM CSS HERE ============ */
+
+.breaking-news-area hr {
+    background-color: #fff;
+    margin-top: 0;
+    width: 80px;
+    height: 2px;
+}
+
+.search-post p {
+    line-height: 1.8;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.search-post-area .search-post h2 {
+    font-size: 28px;
+    line-height: 1.5;
+}
+
+.search-post-area .search-post {
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+    margin: 10px 0;
+}
+
+.search-post-area .search-post:last-child {
+    padding: 0;
+    border-bottom: none;
+}
